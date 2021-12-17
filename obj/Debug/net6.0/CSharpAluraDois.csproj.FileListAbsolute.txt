@@ -1,0 +1,15 @@
+/home/victor/Documents/Alura/CSharpAluraDois/bin/Debug/net6.0/CSharpAluraDois
+/home/victor/Documents/Alura/CSharpAluraDois/bin/Debug/net6.0/CSharpAluraDois.deps.json
+/home/victor/Documents/Alura/CSharpAluraDois/bin/Debug/net6.0/CSharpAluraDois.runtimeconfig.json
+/home/victor/Documents/Alura/CSharpAluraDois/bin/Debug/net6.0/CSharpAluraDois.dll
+/home/victor/Documents/Alura/CSharpAluraDois/bin/Debug/net6.0/ref/CSharpAluraDois.dll
+/home/victor/Documents/Alura/CSharpAluraDois/bin/Debug/net6.0/CSharpAluraDois.pdb
+/home/victor/Documents/Alura/CSharpAluraDois/obj/Debug/net6.0/CSharpAluraDois.csproj.AssemblyReference.cache
+/home/victor/Documents/Alura/CSharpAluraDois/obj/Debug/net6.0/CSharpAluraDois.GeneratedMSBuildEditorConfig.editorconfig
+/home/victor/Documents/Alura/CSharpAluraDois/obj/Debug/net6.0/CSharpAluraDois.AssemblyInfoInputs.cache
+/home/victor/Documents/Alura/CSharpAluraDois/obj/Debug/net6.0/CSharpAluraDois.AssemblyInfo.cs
+/home/victor/Documents/Alura/CSharpAluraDois/obj/Debug/net6.0/CSharpAluraDois.csproj.CoreCompileInputs.cache
+/home/victor/Documents/Alura/CSharpAluraDois/obj/Debug/net6.0/CSharpAluraDois.dll
+/home/victor/Documents/Alura/CSharpAluraDois/obj/Debug/net6.0/ref/CSharpAluraDois.dll
+/home/victor/Documents/Alura/CSharpAluraDois/obj/Debug/net6.0/CSharpAluraDois.pdb
+/home/victor/Documents/Alura/CSharpAluraDois/obj/Debug/net6.0/CSharpAluraDois.genruntimeconfig.cache
