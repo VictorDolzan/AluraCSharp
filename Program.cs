@@ -44,7 +44,7 @@ namespace CSharpAluraDois
             // ByteBankCinco.ExecutarByteBankCinco();
 
             //*******************BYTEBANK SEIS******************//
-            ByteBankSeis.ExecutarByteBankSeis();
+            //ByteBankSeis.ExecutarByteBankSeis();
 
             //*******************BYTEBANK SETE******************//
             ByteBankSete.ExecutarByteBankSeis();

@@ -10,14 +10,11 @@ namespace CSharpAluraDois.byteBankSeis
     public class ContaCorrenteSeis
     {
         // public string titular = "";
-        public ClienteSeis TitularSeis { get; set; }
-       
-        public int AgenciaSeis { get; set; }
+        public ClienteSeis TitularSeis { get; set; }       
+        private int _AgenciaSeis { get; set; }       
+        private int _NumeroSeis { get; set; }
 
-        public int NumeroSeis { get; set; }
-       
-        private double _saldoSeis = 100;
-
+        private double _saldoSeis = 100;        
         public double SaldoSeis
         {
             get

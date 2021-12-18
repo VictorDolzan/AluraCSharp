@@ -9,19 +9,9 @@ namespace CSharpAluraDois.byteBankSeis
 {
     public class ClienteSeis
     {
-        private string _cpfSeis;
         public string NomeCliente { get; set; }
-        public string CPFCliente 
-        {
-             get
-             {
-                return _cpfSeis;
-             } 
-             set
-             {
-                _cpfSeis = value;
-             } 
-        }
+        private string _cpfSeis;
+        public string CPFCliente  { get; set; }
         public string ProfissaoCliente { get; set; }
     }
 }
