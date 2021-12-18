@@ -13,6 +13,7 @@ using CSharpAluraDois.ByteBankExercicio;
 using CSharpAluraDois.byteBankCinco;
 using CSharpAluraDois.byteBankSeis;
 using CSharpAluraDois.byteBankSete;
+using CSharpAluraDois.byteBankOito;
 
 namespace CSharpAluraDois
 {
@@ -47,7 +48,7 @@ namespace CSharpAluraDois
             //ByteBankSeis.ExecutarByteBankSeis();
 
             //*******************BYTEBANK SETE******************//
-            ByteBankSete.ExecutarByteBankSeis();
+            ByteBankSete.ExecutarByteBankSete();
             
         }
     }

@@ -9,7 +9,7 @@ namespace CSharpAluraDois.byteBankSete
 {
     public class ByteBankSete
     {
-        public static void ExecutarByteBankSeis()
+        public static void ExecutarByteBankSete()
         {
             ContaCorrenteSete contaSete = new ContaCorrenteSete();
             ClienteSete clienteV = new ClienteSete();
