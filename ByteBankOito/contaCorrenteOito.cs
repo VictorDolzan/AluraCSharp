@@ -12,10 +12,25 @@ namespace CSharpAluraDois.byteBankOito
         // public string titular = "";
         public ClienteOito TitularOito { get; set; }
 
-        public int AgenciaOito { get; set; }
+        private int _AgenciaOito;
+        public int AgenciaOito
+        {
+            get
+            {
+                return _AgenciaOito;
+            }
+            set
+            {
+                if(value <= 0)
+                {
+                    return;
+                }
+                _AgenciaOito = value;
+            }
+        }
 
         public int NumeroOito { get; set; }
-      
+
         private double _saldoOito = 100;
 
         public double SaldoOito
@@ -26,12 +41,18 @@ namespace CSharpAluraDois.byteBankOito
             }
             set
             {
-                if(value < 0)
+                if (value < 0)
                 {
                     return;
                 }
                 _saldoOito = value;
             }
+        }
+
+        public ContaCorrenteOito(int agenciaObrigatoria, int numeroObrigatorio)
+        {
+            AgenciaOito = agenciaObrigatoria;
+            NumeroOito = numeroObrigatorio;
         }
         public bool Sacar(double valor)
         {

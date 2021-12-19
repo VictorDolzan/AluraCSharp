@@ -11,7 +11,10 @@ namespace CSharpAluraDois.byteBankOito
     {
         public static void ExecutarByteBankOito()
         {
-            
+            ContaCorrenteOito contaOito = new ContaCorrenteOito(867, 86712540);
+
+            Console.WriteLine(contaOito.AgenciaOito);
+            Console.WriteLine(contaOito.NumeroOito);
             
         }
     }

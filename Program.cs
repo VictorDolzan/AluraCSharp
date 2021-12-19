@@ -48,8 +48,10 @@ namespace CSharpAluraDois
             //ByteBankSeis.ExecutarByteBankSeis();
 
             //*******************BYTEBANK SETE******************//
-            ByteBankSete.ExecutarByteBankSete();
+            //ByteBankSete.ExecutarByteBankSete();
             
+            //*******************BYTEBANK OITO******************//
+            ByteBankOito.ExecutarByteBankOito();
         }
     }
 }
