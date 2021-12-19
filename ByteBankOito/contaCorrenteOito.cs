@@ -11,7 +11,7 @@ namespace CSharpAluraDois.byteBankOito
     {
         // public string titular = "";
         public ClienteOito TitularOito { get; set; }
-
+        public static int _TotalDeContasCriadasOito { get; private set; }      
         private int _AgenciaOito;
         public int AgenciaOito
         {
@@ -30,9 +30,7 @@ namespace CSharpAluraDois.byteBankOito
         }
 
         public int NumeroOito { get; set; }
-
         private double _saldoOito = 100;
-
         public double SaldoOito
         {
             get
@@ -53,6 +51,8 @@ namespace CSharpAluraDois.byteBankOito
         {
             AgenciaOito = agenciaObrigatoria;
             NumeroOito = numeroObrigatorio;
+
+            _TotalDeContasCriadasOito++;
         }
         public bool Sacar(double valor)
         {

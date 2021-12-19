@@ -15,6 +15,12 @@ namespace CSharpAluraDois.byteBankOito
 
             Console.WriteLine(contaOito.AgenciaOito);
             Console.WriteLine(contaOito.NumeroOito);
+
+            ContaCorrenteOito contaVictor = new ContaCorrenteOito(867, 86712541);
+            ContaCorrenteOito contaJasmin = new ContaCorrenteOito(867, 86712542);
+
+            Console.WriteLine(ContaCorrenteOito._TotalDeContasCriadasOito);
+
             
         }
     }
